@@ -32,3 +32,29 @@
     padding-top: 0 !important;
   }
 }
+.device {
+  width: 100vw !important;
+  max-width: none !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  margin: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  backdrop-filter: none !important;
+  overflow: hidden !important;
+}
+
+.device::before,
+.device::after,
+.dynamic-island,
+.statusbar {
+  display: none !important;
+  content: none !important;
+}
+
+.view {
+  inset: 0 !important;
+  padding: 24px 22px 96px !important;
+}
