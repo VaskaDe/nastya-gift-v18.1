@@ -120,7 +120,7 @@ export function successView() {
     <div class="hero-art"><div class="orbit"></div><div class="orbit small"></div><div class="core"><span>✓</span></div></div>
     <p class="eyebrow">Спасибо</p>
     <h1>Выбор готов</h1>
-    <p class="muted">Мне хотелось сделать что-то приятное и подойти к этому чуть внимательнее обычного. Надеюсь, у меня получилось хотя бы немного облегчить выбор.</p>
+    <p class="muted">Мне хотелось сделать что-то приятное и подойти к этому чуть внимательнее обычного. С уважением и огромной любовью.</p>
     <div class="build-log">Выбор сохранён<br>Дальше уже моя задача<br>Спасибо, что прошла это до конца</div>
     <button class="btn primary" data-action="categories">Вернуться к выбору</button>
   </div>`;
