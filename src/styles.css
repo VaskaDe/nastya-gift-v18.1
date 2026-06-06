@@ -17,6 +17,7 @@
 @media (max-width: 720px) {
   .dynamic-island,
   .statusbar,
+  .device::before
   .device::after {
     display: none !important;
   }
