@@ -28,7 +28,7 @@ export function onboardingView() {
     ${topbar(true, 'Onboarding')}
     <p class="eyebrow">GiftOS protocol</p>
     <h2>Как работает система</h2>
-    <p>Перед выбором — короткая инструкция. Это не тест и не обязательство. Можно смотреть, передумывать и уточнять.</p>
+    <p>Перед выбором - маленькая инструкция. Это не тест. Можно смотреть, передумывать и уточнять.</p>
     <div class="onboarding">${appCopy.onboarding.map(([icon,title,text]) => `<div class="onboard-card"><span>${icon}</span><div><strong>${title}</strong><p>${text}</p></div></div>`).join('')}</div>
     <div class="build-log">Build status: passed<br>No critical bugs found<br>Awaiting user input...</div>
     <button class="btn primary" data-action="categories">Перейти к выбору</button>
