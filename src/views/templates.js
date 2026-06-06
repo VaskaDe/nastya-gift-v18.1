@@ -39,7 +39,7 @@ export function categoriesView(categories) {
   return `<div class="screen">
     ${topbar(false, 'Directions')}
     ${progress(1)}
-    <div class="app-header"><p class="eyebrow">Gift picker</p><h2>Выбери направление</h2><p>Я долго думал, что могло бы тебя порадовать. Поэтому собрал несколько вариантиков, которые могут тебя порадовать. Надеюсь что-то тебе приглянется.</p></div>
+    <div class="app-header"><p class="eyebrow">Gift picker</p><h2>Выбери направление</h2><p>Я долго думал, что могло бы тебя порадовать. Поэтому собрал несколько вариантиков. Надеюсь что-то тебе приглянется.</p></div>
     <div class="large-grid">${categories.map(c => `<button class="card" data-category="${c.id}"><div class="card-icon">${c.icon}</div><h3>${c.title}</h3><p>${c.short}</p></button>`).join('')}</div>
   </div>`;
 }
@@ -101,7 +101,7 @@ export function confirmationView(store) {
     <div class="result-box">
       ${store.category?.wishlist ? wishlistRows(store) : giftRows(store)}
     </div>
-    <div class="build-log">Выбор собран<br>Детали сохранены<br>Исполнитель: Василий</div>
+    <div class="build-log">Выбор собран<br>Детали сохранены<br>Исполнитель: Василийб<br>Качество: С любовью</div>
     <div class="actions"><button class="btn primary" data-action="submit">Отправить выбор Василию</button><button class="btn ghost" data-action="back">Вернуться назад</button></div>
   </div>`;
 }
