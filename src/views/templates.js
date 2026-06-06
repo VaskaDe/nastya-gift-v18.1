@@ -39,7 +39,7 @@ export function categoriesView(categories) {
   return `<div class="screen">
     ${topbar(false, 'Directions')}
     ${progress(1)}
-    <div class="app-header"><p class="eyebrow">Gift picker</p><h2>Выбери направление</h2><p>Я долго думал, что могло бы тебя порадовать. Поэтому собрал всё не по магазинам и брендам, а по настроению, желаниям и маленьким радостям. Выбери то, что сейчас откликается больше всего.</p></div>
+    <div class="app-header"><p class="eyebrow">Gift picker</p><h2>Выбери направление</h2><p>Я долго думал, что могло бы тебя порадовать. Поэтому собрал несколько вариантиков, которые могут тебя порадовать. Надеюсь что-то тебе приглянется.</p></div>
     <div class="large-grid">${categories.map(c => `<button class="card" data-category="${c.id}"><div class="card-icon">${c.icon}</div><h3>${c.title}</h3><p>${c.short}</p></button>`).join('')}</div>
   </div>`;
 }
