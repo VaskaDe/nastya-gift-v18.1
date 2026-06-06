@@ -97,11 +97,11 @@ export function confirmationView(store) {
     ${progress(4)}
     <p class="eyebrow">Финальный выбор</p>
     <h2>Почти готово</h2>
-    <p>Проверь, всё ли правильно. Если что-то не так — можно вернуться назад и спокойно поменять.</p>
+    <p>Проверь, всё ли правильно. Если что-то не так - можно вернуться назад и спокойно поменять.</p>
     <div class="result-box">
       ${store.category?.wishlist ? wishlistRows(store) : giftRows(store)}
     </div>
-    <div class="build-log">Выбор собран<br>Детали сохранены<br>Исполнитель: Василийб<br>Качество: С любовью</div>
+    <div class="build-log">Выбор собран<br>Детали сохранены<br>Исполнитель: Василий<br>Качество: С любовью</div>
     <div class="actions"><button class="btn primary" data-action="submit">Отправить выбор Василию</button><button class="btn ghost" data-action="back">Вернуться назад</button></div>
   </div>`;
 }
